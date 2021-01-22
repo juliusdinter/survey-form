@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Melody dance club</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="title">Melody dance club</h1>
+        <p id="description">Be the part of best dancing club 💃 🕺</p>
+        <form action="#" id="survey-form">
+            <label for="name-label">Name
+            <input placeholder="Enter your name" type="text" name="name" id="name" required></label>
+            <label for="email-label">Email
+            <input placeholder="Enter your Email" type="email" name="email" id="email" required></label>
+            <label for="number-label">Age (optional)
+            <input min="2" max="100" placeholder="Age" type="number" name="number" id="number"></label>
+            <label for="dropdown">Dance program
+            <select id = "dropdown" required>
+                <option disabled selected>Select dance</option>
+                <option value = "ballroom">Ballroom (Latin + Standard)</option>
+                <option value = "jazz">Jazz</option>
+                <option value = "commercial">Commercial</option>
+            </select></label>
+            <h3>Select your current dancing level:</h3>
+            <label id="level" for="beginner"><input type="radio" name="radio" id="beginner" value="beginner" checked>Beginner</label>
+            <label id="level" for="intermediate"><input type="radio" name="radio" id="intermediate" value="intermediate">Intermediate</label>
+            <label id="level" for="expert"><input type="radio" name="radio" id="expert" value="expert">Expert</label>
+            <h3>What kind of dance would you like to try? (Except those three mentioned above)?</h3>
+            <label id="level" for="hip-hop"><input type="checkbox" name="checkbox" id="hip-hop" value="hip-hop">Hip hop</label>
+            <label id="level" for="contemporary"><input type="checkbox" name="checkbox" id="contemporary" value="contemporary">Contemporary</label>
+            <label id="level" for="ballet"><input type="checkbox" name="checkbox" id="ballet" value="ballet">Ballet</label>
+            <h3>Leave us a dancing comment 😊</h3>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

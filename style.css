@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-image: url(Awesome-Music-Notes-Wallpaper.jpg);
+}
+#description{
+    margin-bottom: 50px;
+}
+#survey-form{
+    text-align: start;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: #111d5e; 
+}
+label{
+    font-size: 20px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+input:focus{
+    border-color: rgb(0, 140, 255);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px
+}
+select:focus{
+    border-color: rgb(0, 140, 255);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+#level{
+    font-size: 20px;
+    display: block;
+    width: 300px;
+}
+#beginner{
+    width: 15px;
+}
+#intermediate{
+    width: 15px;
+}
+#expert{
+    width: 15px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-style: light;
+}
+#hip-hop{
+    width: 15px;
+}
+#contemporary{
+    width: 15px;
+}
+#ballet{
+    width: 15px;
+}
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: #37af65;
+    color: white;
+}
